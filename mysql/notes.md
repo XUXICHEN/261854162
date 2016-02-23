@@ -24,8 +24,8 @@
   `truncate table ***`
   
   **to reclaim disk space**
-  ```
-  Currently, you cannot remove a data file from the tablespace. To decrease the size of your tablespace, use this procedure:
+  
+  > Currently, you cannot remove a data file from the tablespace. To decrease the size of your tablespace, use this procedure:
 
   Use mysqldump to dump all your InnoDB tables.
   Stop the server.
@@ -34,5 +34,4 @@
   Configure a new tablespace.
   Restart the server.
   Import the dump files.
-  ```
-  
+

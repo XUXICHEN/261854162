@@ -1,5 +1,5 @@
 
-1.Fixing MySQL replication after slaves’s relay log was corrupted
+## 1.Fixing MySQL replication after slaves’s relay log was corrupted
   Refer to page http://www.redips.net/mysql/replication-slave-relay-log-corrupted/
   
   run show slave status to get Relay_Master_Log_File and Exec_Master_Log_Pos,
@@ -20,5 +20,5 @@
   
   can also get the positon from /var/log/mysql/error.log  
 
-2. remove all rows from table
+## 2. remove all rows from table
   truncate table ***
